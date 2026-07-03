@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios Automotrices Premium | Soluciones y Asesoría Vial</title>
+    <!-- Modern Typography from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main class="banner-container" id="mainBanner">
+        <!-- Hero Header section -->
+        <section class="banner-hero">
+            <span class="banner-badge">Servicio Premium</span>
+            <h1 class="banner-title">Cuidado Experto Para Tu Vehículo</h1>
+            <p class="banner-subtitle">Soluciones automotrices inteligentes diseñadas para optimizar tu tiempo, proteger tu inversión y brindarte total tranquilidad en la ruta.</p>
+        </section>
+
+        <!-- Services Selection Section -->
+        <section class="services-section">
+            <div class="services-grid">
+                
+                <!-- Service 1: Lavado de Autos -->
+                <article class="service-card" data-service="lavado" id="cardLavado">
+                    <div class="service-icon">
+                        <!-- Car Wash SVG Icon -->
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            <path d="M9 11v4c0 .6.4 1 1 1h4c.6 0 1-.4 1-1v-4"/>
+                            <circle cx="12" cy="7.5" r="1.5"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h2 class="service-card-title">Lavado Premium</h2>
+                        <p class="service-card-desc">Detallado interior y exterior minucioso con sellado de protección.</p>
+                    </div>
+                    <span class="service-card-link">
+                        Saber más 
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </span>
+                </article>
+
+                <!-- Service 2: Revisión Técnica (Special card highlighted) -->
+                <article class="service-card special-card" data-service="revision" id="cardRevision">
+                    <div class="service-icon">
+                        <!-- Technical Inspection SVG Icon -->
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="4" width="18" height="16" rx="2"/>
+                            <path d="m9 10 2 2 4-4"/>
+                            <path d="M7 16h10"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h2 class="service-card-title">Gestión de Revisión</h2>
+                        <p class="service-card-desc">Llevamos tu auto a la planta de revisión técnica y te lo devolvemos aprobado.</p>
+                    </div>
+                    <span class="service-card-link">
+                        Saber más 
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </span>
+                </article>
+
+                <!-- Service 3: Asesoría Comercial -->
+                <article class="service-card" data-service="compraventa" id="cardCompraventa">
+                    <div class="service-icon">
+                        <!-- Handshake/Deal SVG Icon -->
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h2 class="service-card-title">Compra y Venta</h2>
+                        <p class="service-card-desc">Asesoría comercial experta, tasaciones e inspecciones pre-compra.</p>
+                    </div>
+                    <span class="service-card-link">
+                        Saber más 
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </span>
+                </article>
+
+                <!-- Service 4: Asesorías Generales -->
+                <article class="service-card" data-service="general" id="cardGeneral">
+                    <div class="service-icon">
+                        <!-- Settings/Support/Wrench SVG Icon -->
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.1a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/>
+                            <circle cx="12" cy="12" r="3"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h2 class="service-card-title">Asesorías Generales</h2>
+                        <p class="service-card-desc">Diagnósticos mecánicos avanzados y resoluciones ante siniestros o seguros.</p>
+                    </div>
+                    <span class="service-card-link">
+                        Saber más 
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </span>
+                </article>
+
+            </div>
+
+            <!-- Banner Footer with Contact Info & CTA -->
+            <footer class="banner-footer">
+                <div class="footer-info">
+                    <div class="info-item">
+                        <span class="info-label">Atención inmediata</span>
+                        <span class="info-value">+56 9 1234 5678</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Cobertura</span>
+                        <span class="info-value">Región Metropolitana</span>
+                    </div>
+                </div>
+                
+                <button class="cta-button" id="quoteBtn">
+                    <span>Cotizar Servicio</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </button>
+            </footer>
+        </section>
+    </main>
+
+    <!-- Modals Container -->
+    
+    <!-- 1. Service Details Modal -->
+    <div class="modal" id="detailsModal">
+        <div class="modal-content">
+            <header class="modal-header">
+                <h3 class="modal-title">
+                    <span id="modalIcon"></span>
+                    <span id="modalTitle">Detalle del Servicio</span>
+                </h3>
+                <button class="modal-close" aria-label="Cerrar">&times;</button>
+            </header>
+            <div class="modal-body">
+                <p class="service-detail-info" id="modalDesc">Aquí va la descripción del servicio...</p>
+                <h4 style="font-size: 1rem; margin-top: 1.5rem; color: #fff; font-weight: 700;">¿Qué incluye?</h4>
+                <ul class="feature-list" id="modalFeaturesList">
+                    <!-- Feature items will load dynamically -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. Booking / Quote Request Modal -->
+    <div class="modal" id="bookingModal">
+        <div class="modal-content">
+            <header class="modal-header" style="background: linear-gradient(to right, rgba(255, 126, 71, 0.1), transparent);">
+                <h3 class="modal-title">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--secondary)">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                        <polyline points="10 9 9 9 8 9"></polyline>
+                    </svg>
+                    <span>Cotizar tu Servicio</span>
+                </h3>
+                <button class="modal-close" aria-label="Cerrar">&times;</button>
+            </header>
+            <div class="modal-body">
+                <!-- Success message shown after booking -->
+                <div class="success-banner" id="successBanner">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <div>
+                        <strong style="display: block; font-size: 1rem; margin-bottom: 0.2rem;">¡Solicitud enviada con éxito!</strong>
+                        <span style="font-size: 0.9rem;">Un asesor automotriz se contactará contigo en menos de 15 minutos.</span>
+                    </div>
+                </div>
+
+                <form class="booking-form" id="bookingForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Número de Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="Ej. +56 9 9876 5432" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="servicio">Servicio de Interés</label>
+                        <select id="servicio" name="servicio" required>
+                            <option value="" disabled selected>Selecciona una opción</option>
+                            <option value="lavado">Lavado de Autos Premium</option>
+                            <option value="revision">Gestión de Revisión Técnica</option>
+                            <option value="compraventa">Asesoría Comercial Compra/Venta</option>
+                            <option value="general">Asesorías en General</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensaje">Detalles Adicionales (Opcional)</label>
+                        <textarea id="mensaje" name="mensaje" rows="3" placeholder="Indícanos marca, modelo de tu auto o detalles del servicio que necesitas..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Enviar Solicitud</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script loading -->
+    <script src="script.js"></script>
+</body>
+</html>
